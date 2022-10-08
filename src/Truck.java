@@ -1,6 +1,7 @@
 public class Truck extends Transport implements Competing {
 
     private TypeOfWeight typeOfWeight;
+
     public Truck(String brand, String model, double engineVolume, TypeOfWeight typeOfWeight) {
         super(brand, model, engineVolume);
         this.typeOfWeight = typeOfWeight;

@@ -6,7 +6,6 @@ public class Main {
         Bus crafter = new Bus("Volkswagen", "Crafter", 3.2);
         Bus sprinter = new Bus("Mercedes-Benz", "Sprinter", 3.5, TypeOfCapacity.ESPECIALLY_SMALL);
 
-
         Car lada = new Car("Lada", "Kalina", 1.6, TypeOfBody.SEDAN);
         Car audi = new Car("Audi", "A8 50 L TDI quattro", 5, TypeOfBody.STATION_WAGON);
         Car bmw = new Car("BMW", "Z8", 2.5, TypeOfBody.COUPE);
@@ -38,8 +37,6 @@ public class Main {
         hyundai.determineType();
         bichok.determineType();
     }
-
-
 
 
     private static void printInfoRace(Driver<? extends Transport> drivers) {
